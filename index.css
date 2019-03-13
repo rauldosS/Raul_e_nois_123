@@ -1,0 +1,72 @@
+html{
+  font-size: 75px;
+  font-family: 'Permanent Marker', cursive;
+}
+body{
+  background-color: #0277bd;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+table{
+  color: #fff;
+  border-collapse: collapse;
+  width: 50%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.tabela {
+  width: 100%;
+}
+
+th, td{
+  text-align: center;
+  cursor: pointer;
+}
+
+:root {
+  --cor: #fff;
+}
+
+#bloco00, #bloco10{
+  border-right: var(--cor) 14px solid;
+  border-bottom: var(--cor) 14px solid;
+}
+
+#bloco01, #bloco11{
+  border-right:  var(--cor) 14px solid;
+  border-bottom: var(--cor) 14px solid;
+  border-left: var(--cor) 14px solid;
+}
+
+#bloco02, #bloco12{
+  border-bottom: var(--cor) 14px solid;
+  border-left: var(--cor)  14px solid;
+}
+
+#bloco20, #bloco21 {
+  border-right: var(--cor) 14px solid;
+}
+
+.bloco {
+  width:100px; height: 200px;
+}
+
+.header {
+  color: #ffab40;
+  font-weight: 300;
+}
+
+h3 {
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.container {
+  margin: 0 auto;
+}

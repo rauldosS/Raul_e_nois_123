@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da velha</title>
+  <script src="index.js"></script> 
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <div>
+      <h3 id="jogador" class="header container">X</h3>
+    </div>
+    <table>
+      <tr>
+        <td id="bloco00" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+        <td id="bloco01" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+        <td id="bloco02" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+      </tr>
+      <tr>
+        <td id="bloco10" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+        <td id="bloco11" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+        <td id="bloco12" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+      </tr>
+      <tr>
+        <td id="bloco20" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+        <td id="bloco21" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+        <td id="bloco22" class="bloco" onclick="jogada(this.id);verificaVitoria();"></td>
+      </tr>
+    </table>
+    <div id="legal" class="show incrivel"></div>
+    <input type="button" name="Novo jogo" value="Novo jogo" onclick="novoJogo()" />
+  </div>
+</body>
+</html>
